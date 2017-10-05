@@ -1,5 +1,7 @@
 function getMean(array) {
-
+  array.reduce(function (sum, value) {
+    return sum + value;
+  }, 0);
 }
 
 function getMedian(array) {
