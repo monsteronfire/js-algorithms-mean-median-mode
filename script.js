@@ -5,7 +5,7 @@ function getMean(array) {
 }
 
 function getMedian(array) {
-
+  return array[Math.floor(array.length / 2)];
 }
 
 function getMode(array) {
