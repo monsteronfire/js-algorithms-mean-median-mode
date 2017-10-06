@@ -39,5 +39,9 @@ function getMode(array) {
 }
 
 function meanMedianMode(array) {
+  var mean = getMean(array);
+  var median = getMedian(array);
+  var mode = getMode(array);
 
+  return 'Mean: ' + mean + ' | ' + 'Median: ' + median + ' | ' + 'Mode: ' + mode;
 }
