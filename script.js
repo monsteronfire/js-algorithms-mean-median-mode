@@ -45,3 +45,5 @@ function meanMedianMode(array) {
 
   return 'Mean: ' + mean + ' | ' + 'Median: ' + median + ' | ' + 'Mode: ' + mode;
 }
+
+meanMedianMode([1,2,3,4,5,6,7,6,7,8,8,8,9,1,2,8]);
